@@ -1,0 +1,207 @@
+html {
+  box-sizing: border-box;
+}
+ * {
+  box-sizing: inherit;
+}
+
+body {
+  width: 300px;
+  margin: 0 auto;
+  }
+
+h1{
+  text-align: center;
+  font-family: Didot;
+}
+h2{
+  text-align: center;
+  font-family: Didot;
+}
+
+h3 {
+  font-family: Didot;
+  text-align: center;
+}
+h4 {
+  font-family: Didot;
+  text-align: center;
+}
+
+h2 button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color:   black;
+  background-color: white;
+}
+
+hr {
+  border: solid 1px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-style: inset;
+}
+
+p {
+  text-align: center;
+}
+
+.redDot{
+  background-color: #CF0000;
+}
+
+.blueDot{  
+  background: #010163;
+}
+
+.grid{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.boxes{
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  float: left;
+  border-radius: 50%;
+}
+
+.scoreBox {
+  width: 50px;
+}
+
+#playerPick {
+    text-align: center;
+    font-family: Didot;
+    font-size: 16px;
+}
+
+.titleDisplay {
+  text-align: center;
+}
+.pickBlue{
+color:#010163;
+}
+
+.pickRed{
+color:#CF0000;
+}
+
+#tic {
+  font-size: 24px;
+  font-family: Didot;
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+  /*color: #CF0000;*/
+}
+
+#tac{
+  font-size: 42px;
+  font-family: Didot;
+  text-align: center;
+  font-weight: bold;
+}
+
+#toe{
+  font-size: 64px;
+  font-family: Didot;
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+  /*color: #010163;*/
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+.reset{
+  text-align: center;
+}
+
+#dots{
+  position: relative;
+  overflow:hidden;
+  display: inline-flex;
+  left: 525px;
+  text-align: center;
+}
+
+.redDot{
+  background-color: #CF0000;
+}
+
+
+.blueDot{
+  background: #010163;
+}
+
+#redSmallDotLeft {
+  height: 15px;
+  width: 15px;
+  background-color: #CF0000;
+  border-radius: 50%;
+  float: left;
+}
+
+#blueSmallDotLeft {
+  height: 15px;
+  width: 15px;
+  background-color: #010163;
+  border-radius: 50%;
+  float: left;
+}
+
+#redSmallDotRight {
+  height: 15px;
+  width: 15px;
+  background-color: #CF0000;
+  border-radius: 50%;
+  float: right;
+}
+
+#blueSmallDotRight {
+  height: 15px;
+  width: 15px;
+  background-color: #010163;
+  border-radius: 50%;
+  float: right;
+}
+
+#buttonNameDisplay {
+  text-align: center;
+  overflow:hidden;
+  display: block;
+  font-size: 16px;
+  font-family: Didot;
+}
+
+#playerOneName {
+/*  float: left;*/
+  text-align: center;
+}
+
+#playerTwoName  {
+/*  float: right;*/
+  text-align: center;
+}
+
+#nameButtonOne {
+    float: left;
+}
+
+#nameButtonTwo {
+    float: right;
+}
+
+.boxName{
+    width: 50%;
+}
+
+.text-box {
+  width: 100px;
+}
+
