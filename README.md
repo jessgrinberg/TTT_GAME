@@ -6,7 +6,7 @@ Users will be able to play Tic Tac Toe (pass and play) against one another on mu
 
 ## Motivation
 
-I created this game with a precise styling to fit as a feature in order to be included into [The Parisian Flair]("http://theparisianflair.com/) which promotes the best of French web.
+I created this game with a precise styling to fit as a feature in order to be included into [The Parisian Flair](http://theparisianflair.com/) which promotes the best of French web.
 
 
 ##Techs Used
